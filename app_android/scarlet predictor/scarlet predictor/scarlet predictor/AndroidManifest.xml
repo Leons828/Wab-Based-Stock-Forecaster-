@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    package="com.example.rustock"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/knight"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity android:name="BasicAna">
+                        
+        </activity>
+        <activity
+            android:name="com.example.rustock.PriceActivity"
+            android:label="@string/app_name" >
+            
+            <intent-filter></intent-filter>
+        </activity>
+<activity android:name="Logo">
+    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="stockList"></activity>
+        <activity android:name="MainMenu">
+
+        </activity>
+        <activity android:name="HistoryPrice">
+            
+        </activity>
+        <activity android:name="historySymbolList">
+        </activity>
+        <activity android:name="TestPHP"></activity>
+        <activity android:name="Prediction"></activity>
+        <activity android:name="Simulator"></activity>
+        <activity android:name="predictionSymbol"></activity>
+        <activity android:name="SimulatorSymbol"></activity>
+        <activity android:name="Aboutus"></activity>
+        
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>  
+    
+
+</manifest>

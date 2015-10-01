@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:theme="@android:style/Theme.NoTitleBar" >
+    <ListView 
+        android:id="@android:id/list"  
+        android:background="#55777777" 
+     android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >  
+    </ListView>  
+</RelativeLayout>
+
+

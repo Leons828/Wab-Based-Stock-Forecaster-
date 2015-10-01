@@ -1,0 +1,115 @@
+/* ---------------------------------------------------- */
+/*		Footer
+/* ---------------------------------------------------- */
+
+#footer {
+	background: #e1dfdb url(../img/footer-bg.png) repeat-x;
+	color: #72706a;
+	overflow:hidden;
+	padding: 35px 0 60px;
+}
+
+	#footer .footer-logo {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	#footer a { color: #72706a; }
+
+		#footer a:hover { color: #9c163e; }
+	
+	#footer p a {
+		color: #9c163e;
+		text-decoration: underline;
+	}
+		#footer p a:hover { color: #72706a; }
+
+	#footer h4 {
+		color: #565551;
+		margin-bottom: 5px;
+        text-align: center;
+	}
+	
+		#footer h4 span { color: #9c163e; }
+
+	#footer .one-half, #footer .one-third, #footer .two-third, #footer .one-fourth,
+	#footer .three-fourth, #footer .one-fifth, #footer .two-fifth, #footer .three-fifth {
+		float: left;
+		margin-right: 40px;
+	}
+	
+	#footer .one-half { width: 475px; }
+	#footer .one-third { width: 290px; }
+		#footer .two-third { width: 650px; }
+	#footer .one-fourth { width: 197px; }
+		#footer .three-fourth { width: 753px; }
+	#footer .one-fifth { width: 142px; }
+		#footer .two-fifth { width: 364px; }
+			#footer .three-fifth { width: 586px; }
+
+	#footer .one-half.last, #footer .one-third.last, #footer .one-fourth.last, #footer .one-fifth.last,
+	#footer .two-third.last, #footer .three-fourth.last, #footer .two-fifth.last, #footer .three-fifth.last { margin-right: 0; }
+
+	#categories {
+		list-style: none;
+		margin: 0 0 0 4px;
+	}
+
+		#categories li { margin: 0 0 10px; }
+
+			#categories li a {
+				background: url(../img/categories-arrow.png) no-repeat 0 5px;
+				display: block;
+				padding: 0 0 0 12px;
+				text-decoration: none;
+			}
+			
+				#categories li a:hover {
+					font-weight: bold;
+					text-decoration: underline;
+				}
+
+	#latest-tweets { list-style: none; }
+
+		#latest-tweets li { margin: 0; }
+		
+			#latest-tweets li .user {
+				font-weight: bold;
+				text-decoration: none;
+			}
+	
+				#latest-tweets li .user:hover { text-decoration: underline; }
+	
+				#latest-tweets li .tweet { margin: 0 0 10px; }
+			
+#footer-bottom {
+	background: #787878 url(../img/footer-bottom-bg.png) repeat-x;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+#footer-bottom a {
+	color: #fff;
+}
+
+	#footer-bottom ul {
+		list-style: none;
+		margin: 0;
+	}
+
+		#footer-bottom li {
+			float: left;
+			margin: 0;
+		}
+
+			#footer-bottom li a {
+				color: #fff;
+				text-decoration: none;
+			}
+	
+				#footer-bottom li a:hover { text-decoration: underline; }
+
+			#footer-bottom li .separator { margin: 0 4px; }

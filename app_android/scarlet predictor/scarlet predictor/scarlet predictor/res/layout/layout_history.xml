@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hula">
+
+    <RelativeLayout
+        android:layout_width="540dp"
+        android:layout_height="50dp"
+        android:layout_x="30dp"
+        android:layout_y="843dp" >
+
+        <Button
+            android:id="@+id/backhistory"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back"/>
+
+        <Button
+            android:id="@+id/updatehistory"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/update"
+            />"
+
+        <Button
+            android:id="@+id/selecthistory"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/updatehistory"
+            android:text="Button"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_x="41dp"
+        android:layout_y="200dp" >
+
+        <DatePicker
+            android:id="@+id/enddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+             android:layout_marginTop="25dp" />
+
+        <DatePicker
+            android:id="@+id/startdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp" 
+            />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="323dp"
+        android:layout_height="174dp"
+        android:layout_x="271dp"
+        android:layout_y="6dp" >
+
+        <TextView
+            android:id="@+id/historytext"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="22dp"
+            android:maxLines="7"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textSize="24sp" 
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="232dp"
+        android:layout_height="109dp"
+        android:layout_x="30dp"
+        android:layout_y="5dp" >
+
+        <TextView
+            android:id="@+id/historysymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="N/A"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/historypricecurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/historysymbol"
+            android:layout_alignBottom="@+id/historysymbol"
+            android:layout_centerHorizontal="true"
+            android:background="#ffdc143c"
+            android:text="N/A"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/volumechart"
+        android:layout_width="510dp"
+        android:layout_height="138dp"
+        android:layout_x="40dp"
+        android:layout_y="700dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/historychart"
+        android:layout_width="510dp"
+        android:layout_height="250dp"
+        android:layout_x="40dp"
+        android:layout_y="400dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="31dp"
+        android:layout_y="92dp"
+      
+         android:background="@drawable/select" />
+
+</AbsoluteLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/testbutton"
+        android:layout_width="171dp"
+        android:layout_height="79dp"
+        android:layout_x="223dp"
+        android:layout_y="637dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/testText"
+        android:layout_width="212dp"
+        android:layout_height="189dp"
+        android:layout_x="184dp"
+        android:layout_y="138dp"
+        android:text="Null" />
+
+</AbsoluteLayout>
